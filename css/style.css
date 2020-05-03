@@ -186,6 +186,7 @@ header {
 }
 
 .nav-toggle {
+
     padding: .5em;
     background: transparent;
     border: 0;
@@ -194,6 +195,7 @@ header {
     right: 1em;
     top: 1em;
     z-index: 1000;
+
 }
 
 .hamburger {
@@ -211,7 +213,6 @@ header {
     transition: transform 250ms ease-in-out;
 }
 
-
 .hamburger::before,
 .hamburger::after {
     content: '';
@@ -227,7 +228,6 @@ header {
 .hamburger::after {
     bottom: 6px;
 }
-
 
 /*  Intro section  */
 
